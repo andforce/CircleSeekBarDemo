@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="BigWheel">
+        <attr name="bigwheel_bar_pressed" format="reference"></attr>
+        <attr name="bigwheel_bar" format="reference"></attr>
+        <attr name="bigwheel_devider_number" format="integer"></attr>
+        <attr name="bigwheel_type">
+            <enum name="Exposure" value="0" />
+            <enum name="ISO" value="1" />
+            <enum name="Shutter" value="2" />
+            <enum name="MF" value="3" />
+            <enum name="WB" value="4" />
+        </attr>
+        
+        
+        <attr name="bigwheel_wb_small_sun" format="reference"></attr>
+        <attr name="bigwheel_wb_small_clude" format="reference"></attr>
+        <attr name="bigwheel_wb_small_riguang" format="reference"></attr>
+        <attr name="bigwheel_wb_small_yingguang" format="reference"></attr>
+    </declare-styleable>
+
+</resources>
