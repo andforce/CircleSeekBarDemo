@@ -1,12 +1,11 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    xmlns:bigwheel="http://schemas.android.com/apk/res/com.lenovo.scg"
+    xmlns:bigwheel="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-	android:background="@drawable/bg">
+    android:background="@drawable/bg">
 
     <!-- 曝光 -->
-    <com.lenovo.scg.camera.setting.view.BigCircleSeekBarView
+    <com.andforce.circleseekbar.camera.setting.view.BigCircleSeekBarView
         android:id="@+id/myview_001"
         android:layout_width="match_parent"
         android:layout_height="145dp"
@@ -19,7 +18,7 @@
         bigwheel:bigwheel_bar_pressed="@drawable/camera_setting_big_wheel_t_exposure_hi" />
 
     <!-- ISO -->
-    <com.lenovo.scg.camera.setting.view.BigCircleSeekBarView
+    <com.andforce.circleseekbar.camera.setting.view.BigCircleSeekBarView
         
         android:id="@+id/myview_002"
         android:layout_width="match_parent"
@@ -32,7 +31,7 @@
         bigwheel:bigwheel_bar_pressed="@drawable/camera_setting_big_wheel_t_iso_hi" />
 
     <!-- 快门 -->
-    <com.lenovo.scg.camera.setting.view.BigCircleSeekBarView
+    <com.andforce.circleseekbar.camera.setting.view.BigCircleSeekBarView
         android:visibility="gone"
         android:id="@+id/myview_003"
         android:layout_width="match_parent"
@@ -46,7 +45,7 @@
         bigwheel:bigwheel_bar_pressed="@drawable/camera_setting_big_wheel_t_shutter_hi" />
 
     <!-- MF -->
-    <com.lenovo.scg.camera.setting.view.BigCircleSeekBarView
+    <com.andforce.circleseekbar.camera.setting.view.BigCircleSeekBarView
         android:visibility="gone"
         android:id="@+id/myview_004"
         android:layout_width="match_parent"
@@ -59,7 +58,7 @@
         bigwheel:bigwheel_bar_pressed="@drawable/camera_setting_big_wheel_t_mf_hi" />
 
     <!-- 白平衡 -->
-    <com.lenovo.scg.camera.setting.view.BigCircleSeekBarView
+    <com.andforce.circleseekbar.camera.setting.view.BigCircleSeekBarView
         android:visibility="gone"
         android:id="@+id/myview_005"
         android:layout_width="match_parent"
@@ -75,10 +74,5 @@
         bigwheel:bigwheel_wb_small_yingguang="@drawable/camera_setting_big_wheel_yingguangdeng"
         bigwheel:bigwheel_bar="@drawable/camera_setting_big_wheel_t_wb"
         bigwheel:bigwheel_bar_pressed="@drawable/camera_setting_big_wheel_t_wb_hi" />
-    
-<!--             <attr name="bigwheel_wb_small_sun" format="reference"></attr>
-        <attr name="bigwheel_wb_small_clude" format="reference"></attr>
-        <attr name="bigwheel_wb_small_riguang" format="reference"></attr>
-        <attr name="bigwheel_wb_small_yingguang" format="reference"></attr> -->
 
 </RelativeLayout>

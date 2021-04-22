@@ -1,7 +1,5 @@
-package com.lenovo.scg.camera.setting.view;
+package com.andforce.circleseekbar.camera.setting.view;
 
-
-import com.lenovo.scg.R;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -16,6 +14,8 @@ import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.RelativeLayout;
+
+import com.andforce.circleseekbar.R;
 
 public class BigCircleSeekBarView extends RelativeLayout {
 

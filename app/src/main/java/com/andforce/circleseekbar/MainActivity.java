@@ -1,4 +1,4 @@
-package com.lenovo.scg;
+package com.andforce.circleseekbar;
 
 
 import android.os.Bundle;

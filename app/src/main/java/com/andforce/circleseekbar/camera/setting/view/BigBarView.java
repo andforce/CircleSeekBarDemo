@@ -1,4 +1,4 @@
-package com.lenovo.scg.camera.setting.view;
+package com.andforce.circleseekbar.camera.setting.view;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -7,9 +7,10 @@ import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
-import android.widget.ImageView;
 
-public class BigBarView extends ImageView {
+import androidx.appcompat.widget.AppCompatImageView;
+
+public class BigBarView extends AppCompatImageView {
 
 	/**
 	 * @fields mBitmap : 控制按钮的图片
